@@ -46,9 +46,9 @@ done < <(git diff-tree -r "$oldrev" "$newrev")
 if [ "$ret" = "1" ]; then
     echo "###################################################################################################"
     echo "# One or more files contained CRLF (Windows) line endings which are not allowed."
-    echo "# Activate the autocrlf feature or change the line endings to LF before committing and"
-    echo "# before trying to push. You will have to amend your existing commits to not contain CRLF."
-    echo "Use \"git config core.autocrlf true\" to activate CRLF conversion."
+    echo "# Please change the line endings to LF before committing and before trying to push."
+    echo "# You will have to amend your existing commits to not contain CRLF."
+    echo "Use \"git config [--global] core.autocrlf false\" to disable CRLF conversion."
     echo "###################################################################################################"
 fi
 
