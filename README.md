@@ -29,7 +29,8 @@ hook should do), here's how to do this:
         # log on to gitolite hosting user on the server, then:
         cd $HOME
         mkdir -p local/VREF
-        cp your-crlf-update-hook local/VREF/crlf
+        git clone https://github.com/ttys3/gitolite-hooks.git
+        cp ./gitolite-hooks/hooks/update/update-reject-crlf.sh local/VREF/crlf
         chmod +x local/VREF/crlf
 
 3.  in your gitolite-admin clone, edit conf/gitolite.conf and
