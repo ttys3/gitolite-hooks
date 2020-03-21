@@ -8,6 +8,8 @@ usefull gitolite hooks
 
 https://gitolite.com/gitolite/cookbook#hooks
 
+https://gitolite.com/gitolite/cookbook#vrefs
+
 https://gitolite.com/gitolite/rc.html
 
 https://gitolite.com/gitolite/non-core#hooks-and-gitolite
@@ -19,4 +21,6 @@ https://gitolite.com/gitolite/vref.html
 https://gitolite.com/gitolite/vref-2.html
 
 https://gitolite.com/gitolite/triggers.html
+
+https://gitolite.com/gitolite/install#moving-servers
 
