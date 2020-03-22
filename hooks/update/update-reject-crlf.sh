@@ -10,7 +10,7 @@
 # You are free to use this script for whatever you want.
 #
 
-BINARY_REGEX='\.(pdb|dll|exe|png|gif|jpg|mwb|zip|tgz|gz)'
+BINARY_REGEX='\.(dat|pdb|dll|exe|png|gif|jpg|jpeg|ico|mkv|mov|mp3|mp4|swf|mwb|7z|zip|tgz|gz|ttf|otf|woff|woff2)'
 OVERRIDE_REGEX='Contains CRLF'
 
 refname="$1"
