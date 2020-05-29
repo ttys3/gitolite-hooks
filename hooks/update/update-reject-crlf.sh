@@ -33,7 +33,7 @@ do
     [ "$new_sha1" = "0000000000000000000000000000000000000000" ] && continue
 
     # don't do a CRLF check for binary files
-    [[ $tmp =~ $BINARY_REGEX ]] && continue
+    [[ $name =~ $BINARY_REGEX ]] && continue
 
     # check for CRLF
     CR=$(printf "\r")
