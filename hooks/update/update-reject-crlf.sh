@@ -38,7 +38,7 @@ do
     # check for CRLF
     CR=$(printf "\r")
     if git cat-file blob $new_sha1 | grep -Eq "$CR$"; then
-        echo "CRLF DETECTED: $name"
+        echo "CRLF DETECTED: [$name]"
         ret=1
     fi
 done < <(git diff-tree -r "$oldrev" "$newrev")
